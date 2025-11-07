@@ -499,7 +499,7 @@ class menubar(QtWidgets.QMainWindow):
         try:
             self.maxvolset = 100
             self.sl.setMaximum(self.maxvolset)
-            self.sl.setValue(round((self.cast.status.volume_level * self.maxvolset), 1))
+            self.sl.setValue(int(self.cast.status.volume_level * self.maxvolset))
         except AttributeError:
             self.maxvolset = 100
             self.sl.setMaximum(self.maxvolset)
