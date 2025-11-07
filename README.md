@@ -110,7 +110,7 @@ following:
 * flask (optional).
 * ffmpeg (optional).
 * -dl (option if you plan to cast  URLs or [supported
-  websites](https://rg3.github.io/youtube-dl/supportedsites.html)).
+  websites](http://rg3.github.io/yt-dlp/supportedsites.html)).
 
 #### Linux
 
@@ -511,16 +511,16 @@ here](https://github.com/muammar/mkchromecast#macos).
 #### Playing Youtube URLs in Google Cast devices
 
 You can play Youtube URLs (or [other
-sites](https://rg3.github.io/youtube-dl/supportedsites.html) headlessly from
+sites](http://rg3.github.io/yt-dlp/supportedsites.html) headlessly from
 the command line:
 
 ```
 bin/mkchromecast -y https://www.youtube.com/watch\?v\=NVvAJhZVBT
 ```
 
-To use this function, you need to install `youtube-dl`. In macOS, this can be
-done with homebrew: `brew install youtube-dl`. In Debian based distros:
-`apt-get install youtube-dl`.
+To use this function, you need to install `yt-dlp`. In macOS, this can be
+done with homebrew: `brew install yt-dlp`. In Debian based distros:
+`apt-get install yt-dlp`.
 
 **Note**: you may need to enclose the URL between quotation marks, and only
 URLs over `https` are supported.
