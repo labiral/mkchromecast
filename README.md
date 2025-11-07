@@ -109,7 +109,7 @@ following:
 
 * flask (optional).
 * ffmpeg (optional).
-* youtube-dl (option if you plan to cast youtube URLs or [supported
+* -dl (option if you plan to cast  URLs or [supported
   websites](https://rg3.github.io/youtube-dl/supportedsites.html)).
 
 #### Linux
@@ -128,8 +128,8 @@ following:
 * faac.
 * ffmpeg (optional).
 * PyQt5 (optional if you want to use the system tray menu).
-* youtube-dl (option if you plan to cast youtube URLs or [supported
-  websites](https://rg3.github.io/youtube-dl/supportedsites.html)).
+* yt-dlp (option if you plan to cast YouTube URLs or [supported
+  websites](http://rg3.github.io/yt-dlp/supportedsites.html)).
 * soco (this module adds Sonos support to Mkchromecast).
 
 For those who don't like Pulseaudio, it is possible to [cast using
@@ -151,8 +151,8 @@ requirements are:
 * faac.
 * ffmpeg.
 * PyQt5 (optional if you want to use the system tray menu).
-* youtube-dl (option if you plan to cast youtube URLs or [supported
-  websites](https://rg3.github.io/youtube-dl/supportedsites.html)).
+* yt-dlp (option if you plan to cast YouTube URLs or [supported
+  websites](http://rg3.github.io/yt-dlp/supportedsites.html)).
 * soco (this module adds Sonos support to Mkchromecast).
 
 
